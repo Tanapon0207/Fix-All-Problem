@@ -1,3 +1,8 @@
-set powershell หากใช้ ng ไม่ได้ใช้คำสั่ง
+Angular
+ติดตั้ง Angular V17^
+1.ติดตั้ง Node.js เเล้ว add path ใน Edit the System environment variables
+2.npm install -g @angular/cli
+3.ng new <ชื่อโปรเจค> --no-standalone (เก็บ app-routing.module.ts และ app.module.ts ไว้)
 
->>> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+
