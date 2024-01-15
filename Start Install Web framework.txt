@@ -1,0 +1,3 @@
+set powershell หากใช้ ng ไม่ได้ใช้คำสั่ง
+
+>>> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
