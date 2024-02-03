@@ -1,8 +1,15 @@
-Angular
+*** Angular ***
 ติดตั้ง Angular V17^
 1.ติดตั้ง Node.js เเล้ว add path ใน Edit the System environment variables
 2.npm install -g @angular/cli
 3.ng new <ชื่อโปรเจค> --no-standalone (เก็บ app-routing.module.ts และ app.module.ts ไว้)
+
+สร้าง models 
+ng g class ชื่อไฟล์ --type=model 
+
+สร้าง services 
+ng g s ชื่อไฟล์
+
 
 -------------------------------------------------------------------------------------------------------
 
