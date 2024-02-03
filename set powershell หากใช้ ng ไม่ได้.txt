@@ -1,10 +1,18 @@
+----- Fix at CMD -----
+
+*** Angular
 set powershell หากใช้ ng ไม่ได้ใช้คำสั่ง
 
 >>> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 -------------------------------------------------------------------------------
+
+*** MySQL *** 
 เปลี่ยนรหัส mysql ใน cmd
 mysql -u ชื่อผู้ใช้ mysql -p
 password: ****
 
 mysql > ALTER USER 'ชื่อผู้ใช้ mysql'@'localhost' IDENTIFIED BY 'รหัสผ่านใหม่';
+
+
+-------------------------------------------------------------------------------
