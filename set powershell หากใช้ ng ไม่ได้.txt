@@ -2,7 +2,7 @@ set powershell หากใช้ ng ไม่ได้ใช้คำสั่�
 
 >>> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
-
+-------------------------------------------------------------------------------
 เปลี่ยนรหัส mysql
 mysql -u ชื่อผู้ใช้ mysql -p
 password: ****
