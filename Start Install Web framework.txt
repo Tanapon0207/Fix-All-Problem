@@ -4,5 +4,7 @@ Angular
 2.npm install -g @angular/cli
 3.ng new <ชื่อโปรเจค> --no-standalone (เก็บ app-routing.module.ts และ app.module.ts ไว้)
 
+-------------------------------------------------------------------------------------------------------
+
 
 
