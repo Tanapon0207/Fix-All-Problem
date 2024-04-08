@@ -18,5 +18,25 @@ ng g s ชื่อไฟล์
 2.nest new ชื่อโปรเจค
 3.nest g resource ชื่อ resource  >>> nest g resource user 
 
+-------------------------------------------------------------------------------------------------------
+
+*** Nestjs + PostgreSQL ***
+
+1.ติดตั้ง nestjs  >> npm i -g @nestjs/cli
+2.เริ่มสร้างโปรเจค nest >> nest new project-name
+3.cd เข้า project_name >> cd project_name
+4.npm i --save @nestjs/typeorm typeorm pg class-validator class-transformor @types/hapi_joi @hapi/joi @nestjs/config
+4. หรือ  npm install --save @nestjs/typeorm typeorm pg class-validator class-transformor
+
+5.เพิ่มโค้ตใน app.module.ts 
+6.รัน nest >> npm run start:dev
+7.สร้างระบบของ user >> nest g res user  
+
+
+คำอธิบายเพิ่มเติมกับ decorator จะมี @ ด้านหน้า
+@Injectable 
+
+-------------------------------------------------------------------------------------------------------
+
 
 
